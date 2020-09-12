@@ -25,7 +25,20 @@ const App = () => {
       <div className="body_page1">
         Wear a <img src={maskIcon} /> when you step into public places
       </div>
-      <button onClick={handleLazyloadClick}>Lazy load</button>
+      <div className="btn_lazyLoad" onClick={handleLazyloadClick}>
+        Lazy load
+      </div>
+
+      <div className="txt_iconcredits">
+        Mask Icon made by{" "}
+        <a href="https://www.flaticon.com/authors/freepik" title="Freepik">
+          Freepik
+        </a>{" "}
+        from{" "}
+        <a href="https://www.flaticon.com/" title="Flaticon">
+          www.flaticon.com
+        </a>
+      </div>
     </div>
   );
 };
