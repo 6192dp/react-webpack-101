@@ -1,0 +1,43 @@
+{
+  "name": "react-webpack-101",
+  "version": "1.0.0",
+  "description": "A basic setup of React.js and webpack with env configs",
+  "main": "index.js",
+  "scripts": {
+    "build-prod": "cross-env NODE_ENV=production webpack",
+    "build": "cross-env NODE_ENV=development webpack",
+    "start": "webpack-dev-server"
+  },
+  "author": "dp",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-react": "^7.10.4",
+    "autoprefixer": "^9.8.6",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^6.0.3",
+    "css-loader": "^4.3.0",
+    "file-loader": "^6.1.0",
+    "html-webpack-plugin": "^4.4.1",
+    "mini-css-extract-plugin": "^0.11.1",
+    "postcss": "^7.0.32",
+    "postcss-loader": "^4.0.1",
+    "sass": "^1.26.10",
+    "sass-loader": "^10.0.2",
+    "style-loader": "^1.2.1",
+    "svg-inline-loader": "^0.8.2",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-md5-hash": "0.0.6"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

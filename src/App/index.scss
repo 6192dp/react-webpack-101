@@ -1,0 +1,20 @@
+$headerFontSize: 1.25rem;
+$baseFontFamily: "Rajdhani", sans-serif;
+
+.txt_header {
+  text-align: center;
+  padding: 1rem;
+  background: beige;
+  font-weight: bold;
+  font-family: $baseFontFamily;
+  font-size: $headerFontSize;
+}
+.body_page1 {
+  user-select: none;
+  font-family: $baseFontFamily;
+  margin: 4rem auto;
+  text-align: center;
+  & img {
+    vertical-align: middle;
+  }
+}
