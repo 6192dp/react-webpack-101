@@ -61,5 +61,8 @@ module.exports = {
     inline: false,
     contentBase: "./build"
   },
-  devtool: "inline-source-map"
+  devtool:
+    process.env.NODE_ENV === "production"
+      ? "hidden-source-map"
+      : "inline-source-map"
 };
